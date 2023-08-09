@@ -1,15 +1,13 @@
 #
 # Build stage
 #
-FROM maven:3.8.2-jdk-11 AS build
-COPY . .
-RUN mvn clean package -DskipTests
+FROM eclipse-temurin:17-jdk-alpine
+VOLUME /tmp
 
 #
 # Package stage
 #
-FROM openjdk:11-jdk-slim
-COPY --from=build /target/apifit-3.1.2.jar apifit.jar
+COPY target/*.jar apifit.jar
 # ENV PORT=8080
-EXPOSE 8080
 ENTRYPOINT ["java","-jar","apifit.jar"]
+EXPOSE 8080
