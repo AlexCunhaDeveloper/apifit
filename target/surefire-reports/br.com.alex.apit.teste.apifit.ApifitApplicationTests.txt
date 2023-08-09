@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: br.com.alex.apit.teste.apifit.ApifitApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.012 s - in br.com.alex.apit.teste.apifit.ApifitApplicationTests

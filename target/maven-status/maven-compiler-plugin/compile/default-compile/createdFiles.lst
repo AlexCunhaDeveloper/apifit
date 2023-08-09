@@ -1,0 +1,4 @@
+br\com\alex\apit\teste\apifit\entities\Customer.class
+br\com\alex\apit\teste\apifit\ApifitApplication.class
+br\com\alex\apit\teste\apifit\controller\CustomerController.class
+br\com\alex\apit\teste\apifit\service\CustomerService.class
